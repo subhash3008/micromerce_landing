@@ -1,0 +1,67 @@
+:root {
+  --bg-color: #2f302f;
+  --text-color: #f7f7f7;
+}
+
+body {
+  background:blue;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  background-image: url('../../assets/images/background_compressed.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+/****** HEADER STYLE **********/
+.header {
+  background: var(--bg-color);
+  padding: 30px 45px;
+  box-sizing: border-box;
+}
+
+.header__image {
+  width: 350px;
+  height: 75px;
+}
+
+.header__image img {
+  width: 100%;
+  height: 100%;
+}
+
+/****** HEADER STYLE END *****/
+
+
+/****** CONTENT STYLE ********/
+
+.content__container {
+  padding: 35px 45px 40px;
+  background: var(--bg-color);
+}
+
+.content__container__title {
+  font-size: 20;
+  color: var(--text-color);
+}
+
+.content__container__text {
+  margin-top: 24px;
+  font-size: 18;
+  color: var(--text-color);
+}
+
+/****** CONTENT STYLE END ****/
